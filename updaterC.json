@@ -1,0 +1,20 @@
+{
+    "shop":{
+        "repo":"CCT_lua_stuff",
+        "user":"Schmarni-Dev",
+        "branch":"dev",
+        "file":"shop.lua"
+    },
+    "shopConfigGen":{
+        "repo":"CCT_lua_stuff",
+        "user":"Schmarni-Dev",
+        "branch":"dev",
+        "file":"configGen.lua"
+    },
+    "genCard":{
+        "repo":"CCT_lua_stuff",
+        "user":"Schmarni-Dev",
+        "branch":"dev",
+        "file":"gm.lua"
+    }
+}
