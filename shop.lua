@@ -37,7 +37,8 @@ local monitor = peripheral.find("monitor", function(name, object)
     return true
 end)
 
-local barrel = peripheral.find("minecraft:barrel")
+-- local barrel = peripheral.find("minecraft:barrel")
+local barrel = peripheral.wrap("bottom")
 
 monitor.setTextScale(0.5)
 
