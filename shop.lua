@@ -94,8 +94,8 @@ while true do
         if checkStock(config["item"]["amount"]) then
             local dj = readJson("disk/schmAPIcard.json")
             local json_payload = {
-                ["data"] = config["secret"],
-                ["data1"] = dj["secret"],
+                ["data"] = dj["secret"],
+                ["data1"] = config["secret"],
                 ["data2"] = config["item"]["price"],
                 ["type"] = "key"
             }
